@@ -69,7 +69,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{season.capitalize}:"
     holidays.each do |attribute, value|
       att = attribute.to_s.gsub("_", " ")
-      puts "  #{att.capitalize}: #{value.join(", ")}"
+      puts "  #{att.titleize}: #{value.join(", ")}"
     end
   end
 end
