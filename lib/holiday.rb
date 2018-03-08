@@ -70,7 +70,6 @@ def all_supplies_in_holidays(holiday_hash)
     holidays.each do |attribute, value|
       print "#{attribute.capitalize}: "
       print value.join(", ")
-      binding.pry
     end
   end
 end
